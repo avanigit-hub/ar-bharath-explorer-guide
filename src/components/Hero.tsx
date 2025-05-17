@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: "url('https://source.unsplash.com/1600x900/?india,monument,tajmahal')",
+          backgroundImage: "url('https://source.unsplash.com/1600x900/?hampi,ruins,temple')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-india-blue/80 to-transparent"></div>
@@ -63,10 +63,10 @@ const Hero: React.FC = () => {
       <div className="container relative z-10 pt-20">
         <div className="max-w-2xl text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-            Discover India's Heritage Through Augmented Reality
+            Discover Hampi's Ancient Wonders Through Augmented Reality
           </h1>
           <p className="text-xl mb-8 text-white/90">
-            Experience monuments in 3D, learn their stories, and find everything you need for your journey.
+            Explore the UNESCO World Heritage Site of Hampi with immersive 3D experiences and comprehensive travel assistance.
           </p>
 
           <div className="flex flex-wrap gap-4">

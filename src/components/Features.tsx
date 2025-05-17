@@ -9,37 +9,37 @@ const Features: React.FC = () => {
       icon: <MapPin className="h-10 w-10 text-india-saffron" />,
       title: "GPS Tracking",
       description:
-        "Automatically detect your location and find nearby monuments and attractions.",
+        "Automatically detect your location and find nearby monuments within the Hampi ruins complex.",
     },
     {
       icon: <Video className="h-10 w-10 text-india-blue" />,
       title: "AR Experiences",
       description:
-        "View monuments in augmented reality and interact with 3D models.",
+        "View Hampi temples and structures in augmented reality and interact with 3D models.",
     },
     {
       icon: <Navigation className="h-10 w-10 text-india-green" />,
       title: "Smart Navigation",
       description:
-        "Get real-time directions to reach monuments with turn-by-turn guidance.",
+        "Get real-time directions to reach Hampi's scattered monuments with turn-by-turn guidance.",
     },
     {
       icon: <Image className="h-10 w-10 text-india-gold" />,
       title: "Past vs Present",
       description:
-        "Compare historical photographs with current views of monuments.",
+        "Compare historical reconstructions with current ruins to visualize Hampi's former glory.",
     },
     {
       icon: <Hotel className="h-10 w-10 text-india-saffron" />,
       title: "Hotel Booking",
       description:
-        "Find and book accommodation near your favorite destinations.",
+        "Find and book accommodation in and around the Hampi archaeological site.",
     },
     {
       icon: <Car className="h-10 w-10 text-india-blue" />,
       title: "Vehicle Rental",
       description:
-        "Hire cars, bikes and more to explore the beauty of India.",
+        "Hire bicycles, scooters and cars to explore the vast expanse of Hampi ruins.",
     },
   ];
 
@@ -47,9 +47,9 @@ const Features: React.FC = () => {
     <section id="features" className="py-20 bg-gradient-to-b from-background to-gray-50">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold mb-4">Experience India Like Never Before</h2>
+          <h2 className="text-3xl font-bold mb-4">Experience Hampi Like Never Before</h2>
           <p className="text-gray-600 text-lg">
-            AR BHARATH combines cutting-edge technology with India's rich cultural heritage to create an immersive tourism experience.
+            AR HAMPI combines cutting-edge technology with Hampi's ancient ruins to create an immersive tourism experience.
           </p>
         </div>
 

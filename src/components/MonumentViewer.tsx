@@ -9,36 +9,36 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const monuments = [
   {
     id: 1,
-    name: "Taj Mahal",
-    location: "Agra, Uttar Pradesh",
-    distance: "2.5 km away",
-    description: "The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.",
-    imageUrl: "https://source.unsplash.com/800x600/?tajmahal",
-    yearBuilt: "1632-1653",
-    builder: "Shah Jahan",
-    style: "Mughal Architecture",
+    name: "Virupaksha Temple",
+    location: "Hampi, Karnataka",
+    distance: "1.5 km away",
+    description: "Virupaksha Temple is an ancient temple dedicated to Lord Shiva, located in the ruins of ancient Hampi. It is still actively worshipped and stands as one of the oldest functioning temples in India.",
+    imageUrl: "https://source.unsplash.com/800x600/?hampi,virupaksha",
+    yearBuilt: "7th Century CE",
+    builder: "Chalukya Dynasty",
+    style: "Dravidian Architecture",
   },
   {
     id: 2,
-    name: "Red Fort",
-    location: "Delhi",
-    distance: "15 km away",
-    description: "The Red Fort is a historic fort in Old Delhi, built by Mughal emperor Shah Jahan in the mid-17th century.",
-    imageUrl: "https://source.unsplash.com/800x600/?redfort,delhi",
-    yearBuilt: "1639-1648",
-    builder: "Shah Jahan",
-    style: "Mughal Architecture",
+    name: "Vittala Temple",
+    location: "Hampi, Karnataka",
+    distance: "3.2 km away",
+    description: "The Vittala Temple is the most extravagant architectural showpiece of Hampi, known for its amazing stone chariot and musical pillars that produce musical notes when tapped.",
+    imageUrl: "https://source.unsplash.com/800x600/?hampi,vittala",
+    yearBuilt: "15th Century CE",
+    builder: "Vijayanagara Empire",
+    style: "Dravidian Architecture",
   },
   {
     id: 3,
-    name: "Hawa Mahal",
-    location: "Jaipur, Rajasthan",
-    distance: "320 km away",
-    description: "Hawa Mahal is a palace in Jaipur, built so the women of the royal household could observe street festivals while unseen.",
-    imageUrl: "https://source.unsplash.com/800x600/?hawamahal,jaipur",
-    yearBuilt: "1799",
-    builder: "Maharaja Sawai Pratap Singh",
-    style: "Rajput Architecture",
+    name: "Lotus Mahal",
+    location: "Hampi, Karnataka",
+    distance: "4.7 km away",
+    description: "The Lotus Mahal is a beautiful two-storied pavilion with an intricate lotus-shaped structure, combining Hindu and Islamic architectural styles with recessed arched windows.",
+    imageUrl: "https://source.unsplash.com/800x600/?hampi,lotusmahal",
+    yearBuilt: "16th Century CE",
+    builder: "Vijayanagara Empire",
+    style: "Indo-Islamic Architecture",
   },
 ];
 
@@ -49,9 +49,9 @@ const MonumentViewer: React.FC = () => {
     <section id="monuments" className="py-20 bg-white">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold mb-4">Discover Monuments in AR</h2>
+          <h2 className="text-3xl font-bold mb-4">Discover Hampi's Monuments in AR</h2>
           <p className="text-gray-600 text-lg">
-            Explore India's rich heritage and experience historical monuments through augmented reality.
+            Explore Hampi's rich heritage and experience historical monuments through augmented reality.
           </p>
         </div>
 

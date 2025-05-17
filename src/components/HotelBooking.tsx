@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -13,30 +14,30 @@ import { DateRange } from "react-day-picker";
 const hotels = [
   {
     id: 1,
-    name: "Taj Palace",
-    location: "New Delhi",
-    price: 15000,
-    rating: 4.8,
-    image: "https://source.unsplash.com/800x600/?hotel,luxury",
-    amenities: ["Free WiFi", "Swimming Pool", "Spa", "Restaurant", "Fitness Center"],
+    name: "Hampi Heritage Resort",
+    location: "Hospet Road, Hampi",
+    price: 5500,
+    rating: 4.6,
+    image: "https://source.unsplash.com/800x600/?hotel,heritage",
+    amenities: ["Free WiFi", "Swimming Pool", "Restaurant", "AC Rooms", "Garden"],
   },
   {
     id: 2,
-    name: "Heritage Grand",
-    location: "Jaipur",
-    price: 8500,
-    rating: 4.5,
-    image: "https://source.unsplash.com/800x600/?hotel,heritage",
-    amenities: ["Free WiFi", "Restaurant", "Room Service", "Air Conditioning"],
+    name: "Virupaksha Guest House",
+    location: "Near Virupaksha Temple, Hampi",
+    price: 2800,
+    rating: 4.3,
+    image: "https://source.unsplash.com/800x600/?hotel,guesthouse",
+    amenities: ["Free WiFi", "Restaurant", "Temple View", "Room Service"],
   },
   {
     id: 3,
-    name: "Lakeside Resort",
-    location: "Udaipur",
-    price: 12000,
-    rating: 4.7,
-    image: "https://source.unsplash.com/800x600/?hotel,resort",
-    amenities: ["Free WiFi", "Lake View", "Swimming Pool", "Spa", "Restaurant"],
+    name: "Tungabhadra River View",
+    location: "Anegundi, Hampi",
+    price: 4200,
+    rating: 4.5,
+    image: "https://source.unsplash.com/800x600/?hotel,river,view",
+    amenities: ["Free WiFi", "River View", "Restaurant", "Outdoor Seating", "Local Tours"],
   },
 ];
 
@@ -50,9 +51,9 @@ const HotelBooking: React.FC = () => {
     <section id="hotels" className="py-20 bg-white">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold mb-4">Find Perfect Accommodation</h2>
+          <h2 className="text-3xl font-bold mb-4">Find Accommodation in Hampi</h2>
           <p className="text-gray-600 text-lg">
-            Book hotels near monuments and attractions for a comfortable stay during your journey.
+            Book hotels near Hampi's monuments and ruins for a comfortable stay during your exploration.
           </p>
         </div>
 
