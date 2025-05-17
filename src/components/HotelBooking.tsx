@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -9,6 +8,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { format } from "date-fns";
 import { Calendar as CalendarIcon, Star, Hotel, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { DateRange } from "react-day-picker";
 
 const hotels = [
   {
@@ -41,10 +41,7 @@ const hotels = [
 ];
 
 const HotelBooking: React.FC = () => {
-  const [dateRange, setDateRange] = useState<{
-    from: Date | undefined;
-    to: Date | undefined;
-  }>({
+  const [dateRange, setDateRange] = useState<DateRange>({
     from: undefined,
     to: undefined,
   });
@@ -105,6 +102,7 @@ const HotelBooking: React.FC = () => {
                       selected={dateRange}
                       onSelect={setDateRange}
                       numberOfMonths={2}
+                      className="pointer-events-auto"
                     />
                   </PopoverContent>
                 </Popover>
